@@ -1,7 +1,7 @@
 public class Country {
-    String small;
-    String full;
-    int people;
+    private String small;
+    private String full;
+    private int people;
 
     @Override
     public String toString() {

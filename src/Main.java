@@ -19,7 +19,7 @@ public class Main {
 
         String key = scan.nextLine();
         Country foungKey = worldCountry.get(key);
-        System.out.println(foungKey.full + " " + foungKey.small + " ma " + foungKey.people + " ludności");
+        System.out.println(foungKey.getFull() + " " + foungKey.getSmall() + " ma " + foungKey.getPeople() + " ludności");
 
     }
 }

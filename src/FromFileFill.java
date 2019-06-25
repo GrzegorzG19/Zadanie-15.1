@@ -21,7 +21,7 @@ public class FromFileFill {
         Map<String, Country> worldCountry = new HashMap<>();
 
         for (Country country : countries) {
-            worldCountry.put(country.getSmall(),country);
+            worldCountry.put(country.getSmall(), country);
         }
 
         return worldCountry;
